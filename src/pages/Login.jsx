@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Login.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import illustration from "../assets/Illustrasi-Login.png";
 import { Link, useNavigate } from "react-router-dom";
 import API from "../services/api";
