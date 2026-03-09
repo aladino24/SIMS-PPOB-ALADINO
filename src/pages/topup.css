@@ -1,0 +1,126 @@
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* balance section */
+
+.balance-wrapper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:40px;
+}
+
+.welcome-section{
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-img{
+  width:60px;
+  margin-bottom:10px;
+}
+
+.balance-card{
+  background:#ff3b30;
+  color:white;
+  padding:25px 40px;
+  border-radius:12px;
+  width:350px;
+}
+
+.balance-card h2{
+  margin:10px 0;
+}
+
+.lihat{
+  font-size:14px;
+  cursor:pointer;
+}
+
+/* topup */
+
+.topup-section{
+  margin-top:20px;
+}
+
+.topup-section h3{
+  margin:5px 0 20px;
+}
+
+.topup-input-group{
+  display:flex;
+  gap:20px;
+}
+
+/* input */
+
+.topup-input-group input{
+  flex:1;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+/* buttons */
+
+.nominal-buttons{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+}
+
+.nominal-buttons button{
+  padding:10px;
+  border:1px solid #ddd;
+  background:white;
+  cursor:pointer;
+  border-radius:6px;
+}
+
+.nominal-buttons button:hover{
+  background:#f5f5f5;
+}
+
+/* topup button */
+
+.topup-btn{
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#ddd;
+  border-radius:6px;
+  cursor:pointer;
+  color:white;
+}
+
+/* tombol aktif */
+.topup-btn:not(:disabled){
+  background:#ff3b30;
+  cursor:pointer;
+}
+
+/* tombol disable */
+.topup-btn:disabled{
+  background:#ccc;
+  cursor:not-allowed;
+}
+
+.nominal-buttons button{
+  padding:10px;
+  border:1px solid #ddd;
+  background:white;
+  cursor:pointer;
+  border-radius:6px;
+  color:#000; /* membuat tulisan hitam */
+  font-weight:500;
+}
+
+.nominal-buttons button.active{
+  border:1px solid #ff3b30;
+  color:#ff3b30;
+  font-weight:600;
+}

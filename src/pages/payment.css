@@ -1,0 +1,105 @@
+.container{
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* PROFILE + SALDO */
+.balance-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.welcome-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.balance-card{
+  background: #ff4d4f;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.balance-card p{
+  margin: 0;
+}
+
+.balance-card h2{
+  margin: 10px 0;
+}
+
+.balance-card span{
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* PAYMENT */
+.payment-section{
+  max-width: 500px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.service-icon{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.service-name{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.payment-section input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.pay-btn{
+  width: 100%;
+  padding: 14px;
+  background: #ddd;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+
+.pay-btn:enabled{
+  background: #ff4d4f;
+  color: white;
+  cursor: pointer;
+}
+
+.pay-btn:enabled:hover{
+  background: #e63946;
+}

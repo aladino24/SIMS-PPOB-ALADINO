@@ -1,0 +1,181 @@
+.akun-container{
+  max-width:500px;
+  margin:40px auto;
+}
+
+/* profile */
+
+.profile-section{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.profile-image-wrapper{
+  position:relative;
+  display:inline-block;
+}
+
+.profile-image{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #eee;
+}
+
+/* edit icon */
+
+.edit-icon{
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  background:white;
+  border-radius:50%;
+  padding:5px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+/* form */
+
+.profile-form{
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-form label{
+  margin:10px 0 5px;
+  font-size:14px;
+}
+
+.profile-form input{
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+/* edit button */
+
+.edit-btn{
+  margin-top:20px;
+  padding:12px;
+  border:1px solid #ff3b30;
+  background:white;
+  color:#ff3b30;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* logout */
+
+.logout-btn{
+  margin-top:10px;
+  padding:12px;
+  border:none;
+  background:#ff3b30;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.edit-actions{
+  display:flex;
+  gap:10px;
+  margin-top:20px;
+}
+
+.save-btn{
+  flex:1;
+  padding:12px;
+  background:#ff3b30;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.cancel-btn{
+  flex:1;
+  padding:12px;
+  border:1px solid #999;
+  background:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.profile-form{
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-form button{
+  margin-top:10px;
+  padding:12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* simpan */
+
+.save-btn{
+  background:#ff3b30;
+  color:white;
+  border:none;
+}
+
+/* batalkan */
+
+.cancel-btn{
+  background:white;
+  border:1px solid #ddd;
+  color:black;
+}
+
+/* edit */
+
+.edit-btn{
+  background:white;
+  border:1px solid #ff3b30;
+  color:#ff3b30;
+}
+
+/* logout */
+
+.logout-btn{
+  background:#ff3b30;
+  color:white;
+  border:none;
+}
+
+.profile-image-wrapper{
+  position:relative;
+  display:inline-block;
+}
+
+/* foto */
+
+.profile-image{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #eee;
+}
+
+/* icon pencil */
+
+.edit-photo-icon{
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  width:32px;
+  height:32px;
+  background:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  cursor:pointer;
+  border:1px solid #ddd;
+}

@@ -1,0 +1,101 @@
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.register-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* kiri */
+.register-left {
+  width: 35%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* judul */
+.register-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-header h2 {
+  margin-bottom: 10px;
+}
+
+.register-header h3 {
+  font-weight: normal;
+  color: #666;
+}
+
+/* form */
+form {
+  width: 100%;
+}
+
+/* input dan button sama lebar */
+input,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* input */
+input {
+  border: 1px solid #ccc;
+}
+
+/* button */
+button {
+  margin-top: 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #cc0000;
+}
+
+/* error */
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* login text */
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* kanan */
+.register-right {
+  width: 65%;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
